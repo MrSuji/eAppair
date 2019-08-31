@@ -8,8 +8,17 @@
     margin: 0 14px;
 }
 
+@media screen and (max-width: 990px) {
+    .nav-link {
+        color: #ffffffc0;
+    }
+    .contactBtn {
+        color: #fff;
+    }
+}
+
 .navbar {
-    padding-top: 30px;
+    padding-top: 20px;
     z-index: 999;
 }
 
@@ -71,6 +80,12 @@
     position: absolute;
 }
 
+@media screen and (min-width: 1600px) {
+    .bannerText {
+        margin-top: 50px;
+    }
+}
+
 .bannerText p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
@@ -96,7 +111,7 @@
 
 @media screen and (max-width: 1200px) {
     .bannerText h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #ffffff;
         padding-bottom: 20px;
         line-height: 45px;
@@ -114,6 +129,7 @@
     padding: 15px 30px;
     display: inline-block;
     margin-top: 68px;
+    border-radius: 3px;
 }
 
 .learnBtn:hover {
