@@ -224,6 +224,12 @@
     height: 550px;
 }
 
+@media screen and (max-width: 768px) {
+    #aboutUs .container {
+        height: 600px;
+    }
+}
+
 .aboutCard {
     text-align: center;
     top: -20%;
