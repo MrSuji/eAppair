@@ -71,6 +71,12 @@
     position: absolute;
 }
 
+@media screen and (min-width: 1600px) {
+    .bannerText {
+        margin-top: 50px;
+    }
+}
+
 .bannerText p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
@@ -114,6 +120,7 @@
     padding: 15px 30px;
     display: inline-block;
     margin-top: 68px;
+    border-radius: 3px;
 }
 
 .learnBtn:hover {
