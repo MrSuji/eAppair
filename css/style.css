@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 #particles-js .container {
     position: relative;
 }
@@ -216,7 +221,7 @@
 #aboutUs .container {
     position: relative;
     padding: 0;
-    height: 500px;
+    height: 550px;
 }
 
 .aboutCard {
@@ -236,4 +241,49 @@
     width: 80%;
     text-align: center;
     margin: 0 auto;
+}
+
+/* our service part  */
+
+#ourService {
+    margin-bottom: 100px;
+}
+
+.serviceText, .cardOne, .cardTwo {
+    display: inline-block;
+}
+
+.serviceText h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2.8125rem;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+.cardOne h1, .cardTwo h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.78rem;
+    width: 100%;
+    margin: 25px 0;
+    font-weight: 700;
+}
+
+.serviceText p {
+    font-size: 1.25rem;
+}
+
+.cardOne p, .cardTwo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+.cardOne img, .cardTwo img {
+    font-family: 'Roboto', sans-serif;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .cardOne {
+        margin-top: 315px;
+    }
 }
