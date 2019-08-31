@@ -16,9 +16,11 @@
 @media screen and (max-width: 990px) {
     .nav-link {
         color: #ffffffc0;
+        -webkit-color: #ffffffc0;
     }
     .contactBtn {
         color: #fff;
+        -webkit-color: #fff;
     }
 }
 
@@ -169,9 +171,14 @@
 
 #particles-js {
     overflow-wrap: break-word;
-    overflow: hidden;
     width: 100%;
     z-index: -1;
+}
+
+.toggleParticle {
+    width: 650px;
+    background: #000;
+    overflow: scroll;
 }
 
 /* @media screen and (max-width: 1200px) {
@@ -226,21 +233,30 @@
 
 @media screen and (max-width: 768px) {
     #aboutUs .container {
-        height: 650px;
+        height: 600px;
     }
 }
 
 .aboutCard {
     text-align: center;
-    top: -20%;
     background-color: #fff;
     margin: 0 auto;
     -webkit-box-shadow: 0px 0px 97px -52px rgba(0, 0, 0, 0.39);
     -moz-box-shadow: 0px 0px 97px -52px rgba(0, 0, 0, 0.39);
     box-shadow: 0px 0px 97px -52px rgba(0, 0, 0, 0.39);
-    position: absolute;
     width: 100%;
+}
+
+.activeCardToggle {
+    top: -20%;
     z-index: 99;
+    position: absolute;
+}
+
+@media screen and (max-width: 450px) {
+    .aboutCard {
+        top: -10%;
+    }
 }
 
 .aboutText {
