@@ -1,0 +1,153 @@
+#particles-js .container {
+    position: relative;
+}
+
+.nav-link {
+    font-size: 1.125rem;
+    color: #ffffffc0;
+    margin: 0 14px;
+}
+
+.navbar {
+    padding-top: 30px;
+    z-index: 999;
+}
+
+.navbar-brand {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+.alignLeft {
+    text-align: right;
+}
+
+.navBefore {
+    transition: .2s;
+}
+
+.navBefore:hover {
+    transform: scale(1.12);
+    color: #fff
+}
+
+.contact {
+    margin-left: 44px;
+}
+
+@media screen and (max-width: 985px) {
+    .contact {
+        margin-left: 0.8125rem;
+        margin-top: 10px;
+    }
+}
+
+.navbar-toggler {
+    color: #fff
+}
+
+.contactBtn {
+    background-color: rgb(57, 30, 235);
+    color: #ffffffde;
+    border: 1px solid #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.contactBtn:hover {
+    background-color: #ffffffde;
+    color: rgb(57, 30, 235);
+}
+
+/* text part */
+
+.bannerText {
+    position: absolute;
+}
+
+.bannerText p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: #8aa4fb;
+    line-height: 1.9375rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .bannerText p {
+        font-size: .9rem;
+        line-height: 20px;
+    }
+}
+
+.bannerText h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 3.25rem;
+    color: #ffffff;
+    font-weight: 700;
+    padding-bottom: 50px;
+    line-height: 65px;
+}
+
+@media screen and (max-width: 1200px) {
+    .bannerText h1 {
+        font-size: 2rem;
+        color: #ffffff;
+        padding-bottom: 20px;
+        line-height: 45px;
+    }
+}
+
+/* learn button  */
+
+.bannerText .learnBtn {
+    background: #4ea0ed;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    transition: all linear .2s;
+    padding: 15px 30px;
+    display: inline-block;
+    margin-top: 68px;
+}
+
+.learnBtn:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #3d1de9;
+    box-shadow: 4px 8px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1200px) {
+    .bannerText .learnBtn {
+        font-size: 18px;
+        padding: 10px 20px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+}
+
+/* particle js  */
+
+#particles-js {
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 1200px) {
+    #particles-js {
+        height: 90%;
+        overflow-wrap: break-word;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    #particles-js {
+        height: 100%;
+        overflow-wrap: break-word;
+    }
+}
