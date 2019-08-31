@@ -164,25 +164,76 @@
 
 #particles-js {
     overflow-wrap: break-word;
+    overflow: hidden;
     width: 100%;
+    z-index: -1;
 }
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
     #particles-js {
         height: 90%;
         overflow-wrap: break-word;
+        overflow: scroll
     }
-}
-
-@media screen and (max-height: 900px) {
-    #particles-js {
-        height: 100%;
-    }
-}
+} */
 
 @media screen and (max-height: 600px) {
     #particles-js {
         height: 100%;
         overflow-wrap: break-word;
     }
+}
+
+/* about us part  */
+
+.aboutText h1 {
+    font-family: 'Source Serif Pro', serif;
+    text-align: center;
+}
+
+.aboutText p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.aboutText :not(:last-child) {
+    padding-top: 30px;
+}
+
+.aboutText :last-child {
+    font-style: italic;
+    padding-bottom: 60px;
+}
+
+.aboutText :first-child {
+    padding-top: 60px;
+}
+
+.secondLastP {
+    margin-bottom: 0;
+}
+
+#aboutUs .container {
+    position: relative;
+    padding: 0;
+    height: 500px;
+}
+
+.aboutCard {
+    text-align: center;
+    top: -20%;
+    background-color: #fff;
+    margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 97px -52px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0px 0px 97px -52px rgba(0, 0, 0, 0.39);
+    box-shadow: 0px 0px 97px -52px rgba(0, 0, 0, 0.39);
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+}
+
+.aboutText {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
 }
