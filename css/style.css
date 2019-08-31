@@ -78,6 +78,13 @@
 
 .bannerText {
     position: absolute;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .bannerText {
+        max-width: 95%;
+    }
 }
 
 @media screen and (min-width: 1600px) {
@@ -148,10 +155,16 @@
     }
 }
 
+.bannerText h1, .bannerText p {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* particle js  */
 
 #particles-js {
     overflow-wrap: break-word;
+    width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
