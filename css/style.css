@@ -34,6 +34,11 @@
     font-weight: 700;
     font-size: 2rem;
     color: #fff;
+    margin-left: -16px;
+}
+
+.fa-bars {
+    margin-right: -16px;
 }
 
 .navbar-brand:hover {
