@@ -181,8 +181,6 @@
 }
 
 .toggleParticle {
-    width: 750px;
-    background: #000;
     overflow: scroll;
 }
 
