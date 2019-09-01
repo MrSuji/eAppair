@@ -39,6 +39,8 @@
 
 .fa-bars {
     margin-right: -16px;
+    outline: none;
+    border: none;
 }
 
 .navbar-brand:hover {
@@ -70,7 +72,13 @@
 }
 
 .navbar-toggler {
-    color: #fff
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.collapsed {
+    border: none;
 }
 
 .contactBtn {
