@@ -184,14 +184,6 @@
     overflow: scroll;
 }
 
-/* @media screen and (max-width: 1200px) {
-    #particles-js {
-        height: 90%;
-        overflow-wrap: break-word;
-        overflow: scroll
-    }
-} */
-
 @media screen and (max-height: 600px) {
     #particles-js {
         height: 100%;
@@ -236,7 +228,7 @@
 
 @media screen and (max-width: 768px) {
     #aboutUs .container {
-        height: 600px;
+        height: 650px;
     }
 }
 
