@@ -237,7 +237,13 @@
 
 @media screen and (max-width: 768px) {
     #aboutUs .container {
-        height: 650px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #aboutUs .container {
+        height: 700px;
     }
 }
 
