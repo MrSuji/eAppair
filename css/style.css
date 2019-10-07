@@ -193,8 +193,20 @@
     z-index: -1;
 }
 
+@media (max-width: 1200px) {
+    #particles-js {
+        height: 600px;
+    }
+}
+
 .toggleParticle {
-    overflow: scroll;
+    /* overflow: scroll; */
+    height: 750px !important;
+    /* overflow: scroll; */
+}
+
+.aboutToggle {
+    position: initial !important;
 }
 
 @media screen and (max-height: 600px) {
@@ -283,6 +295,12 @@
 
 #ourService {
     margin-bottom: 100px;
+}
+
+@media (min-width: 450px) and (max-width:513px) {
+    #ourService {
+        margin-top: 50px;
+    }
 }
 
 .serviceText h1 {
@@ -529,7 +547,7 @@
         width: 300px;
     }
     .fa-map-marker-alt {
-        top: -55px !important;
+        top: -31px !important;
     }
 }
 
