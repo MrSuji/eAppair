@@ -17,17 +17,6 @@
     margin: 0 14px;
 }
 
-@media screen and (max-width: 990px) {
-    .nav-link {
-        color: #ffffffc0;
-        -webkit-color: #ffffffc0;
-    }
-    .contactBtn {
-        color: #fff;
-        -webkit-color: #fff;
-    }
-}
-
 .navbar {
     padding-top: 20px;
     z-index: 999;
@@ -68,13 +57,6 @@
     margin-left: 44px;
 }
 
-@media screen and (max-width: 985px) {
-    .contact {
-        margin-left: 0.8125rem;
-        margin-top: 10px;
-    }
-}
-
 .navbar-toggler {
     color: #fff;
     outline: none !important;
@@ -106,30 +88,11 @@
     padding: 0;
 }
 
-@media screen and (max-width: 600px) {
-    .bannerText {
-        max-width: 95%;
-    }
-}
-
-@media screen and (min-width: 1600px) {
-    .bannerText {
-        margin-top: 100px;
-    }
-}
-
 .bannerText p {
     font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
     color: #8aa4fb;
     line-height: 1.9375rem;
-}
-
-@media screen and (max-width: 1200px) {
-    .bannerText p {
-        font-size: .9rem;
-        line-height: 20px;
-    }
 }
 
 .bannerText h1 {
@@ -139,15 +102,6 @@
     font-weight: 700;
     padding-bottom: 50px;
     line-height: 65px;
-}
-
-@media screen and (max-width: 1200px) {
-    .bannerText h1 {
-        font-size: 1.7rem;
-        color: #ffffff;
-        padding-bottom: 20px;
-        line-height: 45px;
-    }
 }
 
 /* learn button  */
@@ -171,15 +125,6 @@
     box-shadow: 4px 8px 30px 0px rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (max-width: 1200px) {
-    .bannerText .learnBtn {
-        font-size: 18px;
-        padding: 10px 20px;
-        display: inline-block;
-        margin-top: 20px;
-    }
-}
-
 .bannerText h1, .bannerText p {
     padding-left: 0;
     padding-right: 0;
@@ -193,27 +138,13 @@
     z-index: -1;
 }
 
-@media (max-width: 1200px) {
-    #particles-js {
-        height: 600px;
-    }
-}
-
 .toggleParticle {
     /* overflow: scroll; */
-    height: 750px !important;
-    /* overflow: scroll; */
+    height: 830px !important;
 }
 
 .aboutToggle {
     position: initial !important;
-}
-
-@media screen and (max-height: 600px) {
-    #particles-js {
-        height: 100%;
-        overflow-wrap: break-word;
-    }
 }
 
 /* about us part  */
@@ -251,18 +182,6 @@
     height: 550px;
 }
 
-@media screen and (max-width: 768px) {
-    #aboutUs .container {
-        height: 600px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    #aboutUs .container {
-        height: 700px;
-    }
-}
-
 .aboutCard {
     text-align: center;
     background-color: #fff;
@@ -279,12 +198,6 @@
     position: absolute;
 }
 
-@media screen and (max-width: 450px) {
-    .aboutCard {
-        top: -10%;
-    }
-}
-
 .aboutText {
     width: 80%;
     text-align: center;
@@ -295,12 +208,6 @@
 
 #ourService {
     margin-bottom: 100px;
-}
-
-@media (min-width: 450px) and (max-width:513px) {
-    #ourService {
-        margin-top: 50px;
-    }
 }
 
 .serviceText h1 {
@@ -508,73 +415,4 @@
     cursor: pointer;
     float: right;
     margin-right: 15px;
-}
-
-@media screen and (min-width: 992px) {
-    .footerForm form {
-        position: relative;
-        top: -122px;
-    }
-}
-
-@media screen and (max-width: 992px) {
-    .footerForm form {
-        margin-top: 50px;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .footerForm form {
-        margin: auto;
-        margin-top: 50px;
-    }
-    .mapLocation {
-        width: 450px;
-    }
-}
-
-@media (min-width: 991px) and (max-width: 1199px) {
-    .mapLocation {
-        width: 450px;
-    }
-    .mapLocation {
-        text-align: center;
-    }
-}
-
-@media (max-width: 1199px) {
-    .locationText {
-        width: 300px;
-    }
-    .fa-map-marker-alt {
-        top: -31px !important;
-    }
-}
-
-@media (max-width: 991px) {
-    .footerContact {
-        text-align: center;
-    }
-    .footerForm form {
-        margin: auto;
-        margin-top: 50px;
-    }
-}
-
-@media (max-width: 510px) {
-    .mapLocation {
-        width: 350px;
-    }
-    .footerForm form {
-        width: 350px;
-    }
-    .footerForm input {
-        width: 320px;
-    }
-    .footerForm textarea {
-        width: 320px;
-    }
-    .footerForm *:focus {
-        outline: none !important;
-    }
 }
