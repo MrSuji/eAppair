@@ -542,3 +542,21 @@
         margin-top: 50px;
     }
 }
+
+@media (max-width: 510px) {
+    .mapLocation {
+        width: 350px;
+    }
+    .footerForm form {
+        width: 350px;
+    }
+    .footerForm input {
+        width: 320px;
+    }
+    .footerForm textarea {
+        width: 320px;
+    }
+    .footerForm *:focus {
+        outline: none !important;
+    }
+}
