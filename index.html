@@ -23,12 +23,17 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" media="screen" href="css/particle.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
     <!-- nav bar  -->
-    <div id="particles-js">
+    <section id="particles-js">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-inverse navbar-transparent">
           <a class="navbar-brand" href="#">eAppair</a>
@@ -95,10 +100,10 @@
           <a class="learnBtn" href="#">Learn More</a>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- about us part  -->
-    <div id="aboutUs">
+    <section id="aboutUs">
       <div class="container">
         <div class="aboutCard activeCardToggle">
           <div class="aboutText">
@@ -122,42 +127,152 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- our serviece part  -->
-    <div id="ourService">
+    <section id="ourService">
       <div class="container">
         <div class="row">
-          <div class="serviceText col-lg-4 col-md-4 col-sm-12">
-            <h1>Our Service</h1>
-            <p>
+          <div class="serviceText m-auto">
+            <h1 class="col-lg-12 col-md-12 col-sm-12">Our Service</h1>
+            <p class="col-lg-8 col-md-10 col-sm-12">
               We provide white label managed application service to mobile
               operators and content providers.
             </p>
           </div>
-          <div class="cardOne col-lg-4 col-md-4 col-sm-12">
-            <img src="img/one.png" alt="" />
-            <h1>
-              Service to Mobile Operator
-            </h1>
-            <p>
-              eAppair team up with mobile operators to design and deploy service
-              to increase customer loyalty by providing vertical solution to its
-              business customers We are a provider of fully managed white label
-              service.
-            </p>
+          <div class="cardOne">
+            <div class="row">
+              <div class="cardimg col-lg-5 col-md-6 col-sm-12">
+                <img src="img/one.png" alt="" />
+              </div>
+              <div class="cardText col-lg-7 col-md-6 col-sm-12">
+                <h3>Service to Mobile Operator</h3>
+                <p>
+                  eAppair team up with mobile operators to design and deploy
+                  service to increase customer loyalty by providing vertical
+                  solution to its business customers We are a provider of fully
+                  managed white label service. Services are designed to be
+                  scalable and suitable for carrier wide deployment. We
+                  understand the requirement for compliance and regulatory
+                  guidelines.
+                </p>
+                <p>
+                  Through our international partners with extensive experience
+                  in emerging market we can help operators lower the cost and
+                  speed up the deployment while ensuring that the service
+                  remains reliable and useful.
+                </p>
+                <h5>Service to operator can be for</h5>
+                <ul>
+                  <li>Internal usage</li>
+                  <li>White label service for enterprise customers</li>
+                  <li>Marketplace service to SME</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="cardTwo col-lg-4 col-md-4 col-sm-12">
-            <img src="img/two.png" alt="" />
-            <h1>Service to Content Provider</h1>
-            <p>
-              eAppair provides turkey deployment of SMS and IVR service to
-              Content Providers, so they can concentrate on creating content.
-            </p>
+          <div class="cardOne">
+            <div class="row">
+              <div class="cardimg col-lg-5 col-md-6 col-sm-12">
+                <img src="img/two.png" alt="" />
+              </div>
+              <div class="cardText col-lg-7 col-md-6 col-sm-12">
+                <h3>Service to Content Provider</h3>
+                <p>
+                  eAppair provides turkey deployment of SMS and IVR service to
+                  Content Providers, so they can concentrate on creating
+                  content. We have experienced technical resource for System
+                  Integration with all operators in Bangladesh.
+                </p>
+                <p>
+                  eAppair is not a content provider in traditional sense, thus
+                  free ourselves from any conflicting interest with the CP
+                  Service. Also in policy eAppair does not disclose or promote
+                  any service referring to client list, which re-enforce our
+                  commitment beyond NDA.
+                </p>
+                <h5>Service to content provider can be form</h5>
+                <ul>
+                  <li>SMS Gateway Integration</li>
+                  <li>IVR Integration</li>
+                  <li>Co-ordination during deployment with operators</li>
+                  <li>Connectivity providers.</li>
+                  <li>Billing system integration</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section id="customer">
+      <div class="container">
+        <div class="row">
+          <div class="customerText col-lg-12 m-auto">
+            <h1 class="m-auto col-lg-12 col-md-12 col-sm-12">
+              Customer Stories
+            </h1>
+            <p class="col-lg-10 col-md-10 col-sm-12">
+              More that 20 thousand people using our service everyday. Love to
+              be part of an effort to improve lives , bring joy to some one to
+              get the Job done and get home early
+            </p>
+          </div>
+          <div class="customerimg col-lg-6 col-md-6 col-sm-12">
+            <img src="img/customer.png" alt="" />
+          </div>
+          <div class="customerimg col-lg-6 col-md-6 col-sm-12">
+            <img src="img/community.png" alt="" />
+          </div>
+          <div class="customerimg col-lg-12 col-md-12 col-sm-12">
+            <img src="img/submit.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footerContact col-lg-6 col-md-10 col-sm-12 m-auto">
+            <h3>Contact</h3>
+            <ul>
+              <li><i class="fas fa-envelope"></i></li>
+              <li>info@eappair.com</li>
+            </ul>
+            <ul>
+              <li><i class="fas fa-phone-alt"></i></li>
+              <li>+88 02 8411 386</li>
+            </ul>
+            <ul>
+              <li><i class="fas fa-map-marker-alt"></i></li>
+              <li class="locationText">
+                House- Ka 54/4, Unit – 4-1,<br />
+                Masjid Road - Bashundhara Road, Dhaka – 1229
+              </li>
+            </ul>
+            <iframe
+              class="mapLocation"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.9807181970505!2d90.43490971545165!3d23.712382596143456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9cc8be988fb%3A0x44857813a88207d1!2s54%2F4%2C%20Unit%2C%201%20Bibir%20Bagicha%20Masjid%20Rd%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1570303977173!5m2!1sen!2sbd"
+              width="600"
+              height="450"
+              frameborder="0"
+              style="border:0;"
+              allowfullscreen=""
+            ></iframe>
+          </div>
+          <div class="footerForm col-lg-6 col-md-10 col-sm-12 m-auto">
+            <form class="ml-auto" action="index.html" method="post">
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+              <input type="text" placeholder="Subject" />
+              <textarea placeholder="Write your messege here...."></textarea>
+              <button class="formbtn" type="submit">Send</button>
+              <div class="clr"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -175,6 +290,8 @@
     ></script>
     <!-- particles.js container -->
     <!-- scripts -->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
     <script src="js/particles.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
